@@ -1,17 +1,25 @@
-﻿
+﻿using System;
 
-using System;
-
-namespace HelloWorld {
-    class Program {
-        static void Main(string[] args) {
-           int [] mang = {1,3,423,23,97};
-           foreach (var cacphantu in mang)
-           {
-            Console.WriteLine(cacphantu);
-           }
+namespace CS06_Method
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+           chaoxin.xinchao1();
         }
     }
+
+
+
+    public class chaoxin
+    {
+        public static void xinchao1()
+        {
+            Console.WriteLine("xin chao");
+
+        }
+
+    }
 }
-// sdfsdsadsds
-// sdfsdsd
