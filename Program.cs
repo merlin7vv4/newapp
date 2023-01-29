@@ -13,9 +13,4 @@ namespace HelloWorld {
         }
     }
 }
-string[] names = { "John", "Paul", "George", "Ringo" };
-
-for (int i = names.Length-1; i >= 0; i--)
-{
-    Console.WriteLine(names[i]);
-}
+// sdfsdsadsds
